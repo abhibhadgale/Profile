@@ -1,0 +1,16 @@
+create table profile(
+	ID serial primary key,
+	Name varchar(45) not null,
+	Father_Name varchar(45) default '--',
+	Postal_Add varchar(100) default '--',
+	Personal_Add varchar(100) default '--',
+	Sex varchar(20) default '--',
+	City varchar(45) default '--',
+	Course varchar(45) default '--',
+	District varchar(45) default '--',
+	State varchar(45) default '--',
+	Pin_Code int default '00',
+	Email varchar(45) default '--',
+	DOB date default '2001-01-01',
+	Mobile_No varchar(20) default '--'
+);
